@@ -1,10 +1,9 @@
 /*
-* @Author: 武锦
-* @Date:   2018-08-10 09:25:15
-* @Last Modified by:   武锦
-* @Last Modified time: 2018-08-12 21:41:59
+* @Author: WHX
+* @Date:   2018-08-10 10:03:55
+* @Last Modified by:   WHX
+* @Last Modified time: 2018-08-10 20:57:33
 */
-
 *{
 	margin: 0;
 	padding: 0;
@@ -94,90 +93,117 @@ i{
 	font-size: 24px;
 }
 
-.iphoneX{
+/* iphonex开始 */
+.iphonex{
 	width: 100%;
 	height: 580px;
-	background-image:url('../img/iphone_x_large.jpg') ;
-	background-repeat: no-repeat;
-	background-color: #FAFAFA;
+	padding: 0 50px;
+	background: #fafafa;
+	background-image: url('../img/iphone_x_large.jpg');
+	background-position: 0 230px;
 	background-size: contain;
-	background-position: 0 250px;
+	background-repeat: no-repeat;
 	margin-bottom: 10px;
 }
-.iphoneX h2{
+.iphonex h2{
 	text-align: center;
-	padding-top: 50px;
-	font-size: 50px;
+	padding-top: 30px;
+	font-size: 56px;
+	color: #000;
 }
-.iphoneX P{
+.iphonex p{
 	text-align: center;
-	font-size: 30px;
+	font-size: 26px;
+	color: #000;
 }
-.iphoneX .link{
+.iphonex .link{
 	text-align: center;
+	margin-top: 20px;
 }
-.iphoneX a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 18px;
-    color: #0A75CB;
+.iphonex a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	color: #0A75CB;
 }
+.iphonex a:hover{
+	text-decoration: underline;
+}
+/* iphonex结束 */
 .ipad{
 	width: 100%;
 	height: 580px;
-	background-image:url('../img/ipad_large.jpg') ;
+	padding: 0 50px;
+	background: #F5F5F5;
+	background-image: url('../img/ipad_large.jpg');
+	background-position: 142px 230px;
+	background-size: 930px 355px;
 	background-repeat: no-repeat;
-	background-color: #FAFAFA;
-	background-size: contain;
-	background-position: 0 250px;
 	margin-bottom: 10px;
 }
 .ipad h2{
 	text-align: center;
-	padding-top: 50px;
-	font-size: 36px;
+	padding-top: 30px;
+	font-size: 56px;
+	color: #000;
 }
-.ipad P{
+.ipad p{
 	text-align: center;
 	font-size: 26px;
+	color: #000;
 }
 .ipad .link{
 	text-align: center;
+	margin-top: 20px;
 }
 .ipad a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    color: #0A75CB;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	color: #0A75CB;
 }
-.MacBookPro{
+.ipad a:hover{
+	text-decoration: underline;
+}
+/* ipad结束 */
+.MacBook{
 	width: 100%;
 	height: 580px;
-	background-image:url('https://www.apple.com/cn/home/images/heroes/macbook-pro/macbook_pro_performance_large.jpg') ;
-	background-repeat: no-repeat;
-	background-color: #FAFAFA;
+	padding: 0 50px;
+	background: #fafafa;
+	background-image: url('https://www.apple.com/cn/home/images/heroes/macbook-pro/macbook_pro_performance_large.jpg');
+	background-position: center bottom;
 	background-size: cover;
-	background-position:center bottom;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
 }
-.MacBookPro h2{
+.MacBook h2{
 	text-align: center;
-	padding-top: 50px;
-	font-size: 50px;
-	color: white;
+	padding-top: 30px;
+	font-size: 56px;
+	color: #fff;
 }
-.MacBookPro P{
+.MacBook p{
 	text-align: center;
-	font-size: 30px;
-	color: white;
+	font-size: 26px;
+	color: #fff;
 }
-.MacBookPro .link{
+.MacBook .link{
 	text-align: center;
+	margin-top: 20px;
 }
-.MacBookPro a{
-    text-decoration: none;
-    text-align: center;
-    color: #0A75CB;
+.MacBook a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
 }
+.MacBook a:hover{
+	text-decoration: underline;
+}
+
+
+
 .mid{
 	width: 100%;
 	background: #fff;
@@ -427,13 +453,6 @@ footer .container .end .ending{
 	color: #999;
 	text-decoration: none;
 }
-/*.tanchu{*/
-	/*display: none;*/
-	/*overflow: hidden;*/
-/*}*/
-/*.tanchu .shuchu{*/
-	/*display: none;*/
-/*}*/
 @media screen and (max-width: 1200px){
 	.tanchu{
 		display: none;
@@ -460,15 +479,17 @@ footer .container .end .ending{
     	padding-left: 18px;
     	padding-right: 18px;
     }
-    .iphoneX{
-    	background-image: url('../IMG/iphone_x_medium_2x.jpg');
-    }
-    .ipad{
-    	background-image: url('../img/ipad_medium.jpg');
-    }
-    .MacBookPro{
-    	background-image: url('../img/macbook_pro_performance_medium.jpg');
-    }
+	.iphonex{
+		background-image: url('../IMG/iphone_x_medium_2x.jpg');
+	}
+	.ipad{
+		background-image: url('../img/ipad_medium.jpg');
+		background-position: center bottom;
+		background-size: 650px 325px;
+	}
+	.MacBook{
+		background-image: url('../img/macbook_pro_performance_medium.jpg');
+	}
     .mid ul li:nth-child(1){
 	    background-image: url('https://www.apple.com/cn/home/images/promos/shop_for_college_medium.jpg');
     }
@@ -583,19 +604,22 @@ footer .container .end .ending{
 	/*下拉结束*/
 
 
-	.iphoneX{
-    	background-size: cover;
-    	background-image: url('../IMG/iphone_x_small.jpg');
-    }
-    .ipad{
-    	background-size: cover;
-    	background-color: #FAFAFA;
-    	background-image: url('../img/ipad_small.jpg');
-    }
-    .MacBookPro{
-    	background-size: cover;
-    	background-image: url('../img/macbook_pro_performance_small.jpg');
-    }
+	.iphonex{
+		background-size: cover;
+		background-image: url('../IMG/iphone_x_small.jpg');
+		background-size: 300px 366px;
+		background-position: center bottom ;
+	}
+	.ipad{
+		background-color: #F5F5F5;
+		background-size: 228px 340px;
+		background-position: center bottom;
+		background-image: url('../img/ipad_small.jpg');
+	}
+	.MacBook{
+		background-size: cover;
+		background-image: url('../img/macbook_pro_performance_small.jpg');
+	}
     .mid ul li:nth-child(1){
 	    width: 100%;
 	    background-image: url('https://www.apple.com/cn/home/images/promos/shop_for_college_medium.jpg');
