@@ -499,7 +499,7 @@ footer .container .end .ending{
 	header .abc{
 		width:20px;
 		height:20px;
-		margin-top:23px;
+		margin-top:16px;
 		cursor: pointer;
 		position: relative;
 	}
@@ -511,7 +511,7 @@ footer .container .end .ending{
 	}
 	.one1{
 		transform: rotate(-45deg);
-
+		margin-top: 8px;
 	}
 	header .abc .two{
 		width:18px;
