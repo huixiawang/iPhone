@@ -211,10 +211,10 @@ i{
 }
 .mid ul li{
 	width: 50%;
-	height: 575px;
-	border: 14px solid #fff;
-	box-sizing: border-box;
-	background: red;
+	height: 598px;
+	background: #fafafa;
+	border: 6px solid #fff;
+	margin-top: 3px;
 	float: left;
 }
 .mid ul li:nth-child(1){
@@ -244,7 +244,7 @@ i{
 .mid ul li:nth-child(2) h3{
 	text-align: center;
 	font-size: 30px;
-	margin-top: 420px;
+	margin-top: 400px;
 	color: white;
 }
 .mid ul li:nth-child(2) .witch{
@@ -256,7 +256,7 @@ i{
     color: white;
 }
 .mid ul li:nth-child(2n-1){
-    border-right:none;
+    /*border-right:none;*/
 }
 .mid ul li:nth-child(3){
     border-top:0;
@@ -269,7 +269,7 @@ i{
 .mid ul li:nth-child(3) h3{
     text-align: center;
 	font-size: 30px;
-	margin-top: 420px;
+	margin-top: 400px;
 	color: white;
 }
 .mid ul li:nth-child(3) a{
@@ -357,17 +357,13 @@ i{
 
 }
 footer{
-	height: 480px;
 	background-color: #F2F2F2;
 }
 footer .container{
 	width: 980px;
 	padding: 0 22px;
-	/*height: 476px;*/
 	box-sizing: border-box;
 	margin: 0 auto;
-	/*overflow: hidden;*/
-	/* background-color: #777; */
 }
 footer .container .bos{
 	/*height: 350px;*/
@@ -622,27 +618,34 @@ footer .container .end .ending{
 	}
     .mid ul li:nth-child(1){
 	    width: 100%;
+		border: none;
 	    background-image: url('https://www.apple.com/cn/home/images/promos/shop_for_college_medium.jpg');
     }
     .mid ul li:nth-child(2)
     {
         width: 100%;
+		border: none;
         background-image: url('https://www.apple.com/v/home/ds/images/promos/behind_the_mac_peter_medium.jpg');
     }
     .mid ul li:nth-child(3){
         width: 100%;
+		border: none;
         background-image: url('https://www.apple.com/cn/home/images/promos/iphone_x_a11_medium.jpg');
     }
     .mid ul li:nth-child(4){
         width: 100%;
+		border: none;
         background-image: url('https://www.apple.com/v/home/ds/images/promos/iphone_8_medium.jpg');
     }
     .mid ul li:nth-child(5){
 	    width: 100%;
+		border: none;
 	    background-image: url('https://www.apple.com/cn/home/images/half-width-promos/trade_up_medium.jpg');
     }
     .mid ul li:nth-child(6){
 	    width: 100%;
+		border: none;
+		margin-bottom: 20px;
 	    background-image: url('https://www.apple.com/cn/home/images/promos/three_rings_medium.jpg');
     }
     .mid ul li{
